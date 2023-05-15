@@ -5,13 +5,12 @@ import { motion } from "framer-motion";
 const MailBox = (props) => {
   return (
     <motion.div
-      layout
+      className="mail-box"
       transition={{ type: "spring", duration: 1 }}
       animate={{
         y: props.opacity ? 0 : -200,
         opacity: props.opacity ? 1 : 0,
       }}
-      className="mail-box"
     >
       <button className="close-button" onClick={props.closeHandler}>
         <MdClose className="close-icon" />

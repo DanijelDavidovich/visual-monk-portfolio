@@ -1,0 +1,57 @@
+.about-me-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 52rem;
+  margin: 3rem auto;
+  position: relative;
+}
+
+.heading-box {
+  padding: 3.5rem 26rem;
+  background-color: #6e1b1b;
+  border-radius: 20px 0 20px 0;
+}
+
+.am-heading {
+  font-family: "Courgette", cursive;
+  font-size: 2.2rem;
+  /* text-transform: uppercase; */
+  letter-spacing: 1.7px;
+  position: absolute;
+  top: 2.1rem;
+  right: 16.5rem;
+}
+
+.about-me-img-box {
+  width: 187px;
+  height: 187px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 4rem;
+  top: 18px;
+}
+
+.about-me-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.about-me-text-box {
+  width: 420px;
+  position: absolute;
+  right: 6rem;
+  top: 9rem;
+}
+
+.about-me-text {
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1.3px;
+}

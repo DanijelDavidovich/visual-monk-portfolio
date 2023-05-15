@@ -7,7 +7,9 @@
   gap: 1.5rem;
   position: relative;
   border-radius: 0 0 10px 10px;
-  /* opacity: 0; */
+  transform: translateY(-15rem);
+  opacity: 0;
+  box-shadow: 0 0 1rem #0000005e;
 }
 
 .close-button {

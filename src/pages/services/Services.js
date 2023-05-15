@@ -1,7 +1,15 @@
+import Service from "./Service";
 import "./services.css";
 
 const Services = () => {
-  return <h2>Services</h2>;
+  return <div className="services">
+    <Service/>
+    <Service/>
+    <Service/>
+    <Service/>
+    <Service/>
+    <Service/>
+  </div>;
 };
 
 export default Services;
