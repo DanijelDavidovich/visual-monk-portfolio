@@ -1,0 +1,123 @@
+.gallery-box {
+  width: 64rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.192);
+  height: 630px;
+  border-radius: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.heading-box-gallery {
+  padding: 3rem 0;
+  width: 64rem;
+  background-color: #6e1b1b;
+  border-radius: 20px 0 20px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.heading-gallery {
+  position: absolute;
+  top: 28px;
+  left: 28rem;
+}
+
+.heading-gallery h2 {
+  font-family: "Courgette", cursive;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 1.7px;
+}
+
+.small-ilustration {
+  width: 7rem;
+  height: 7rem;
+  /* background-color: black; */
+  position: absolute;
+  right: 5rem;
+  top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.il-1 {
+  background-color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 3px;
+}
+
+.il-2 {
+  background-color: #868e96;
+  width: 2.5rem;
+  height: 3.2rem;
+  border-radius: 3px;
+  margin-left: -11px;
+}
+
+.il-3 {
+  background-color: #adb5bd;
+  width: 2.5rem;
+  height: 3.2rem;
+  border-radius: 3px;
+  margin-top: -21px;
+}
+.il-4 {
+  background-color: white;
+  width: 2.5rem;
+  height: 2.1rem;
+  border-radius: 3px;
+  margin-left: -11px;
+  margin-top: -10px;
+}
+
+/* IMAGES BOX */
+
+.images-box {
+  width: 60rem;
+  /* background-color: black; */
+  height: 400px;
+  margin-top: 55px;
+  position: absolute;
+  top: 4.9rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.image-box {
+  width: 14rem;
+  height: 14rem;
+}
+
+.image-gallery {
+  object-fit: cover;
+  width: 14rem;
+  height: 14rem;
+  /* height: 11rem; */
+  background-color: white;
+  margin: auto auto;
+  border-radius: 5px;
+  box-shadow: 0 0 1rem #0000005e;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.image-gallery:hover {
+  transform: scale(1.05);
+}
+
+/* PAGINATION */
+
+.paginaton-box {
+  position: absolute;
+  bottom: 2rem;
+}

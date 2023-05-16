@@ -6,12 +6,17 @@
   width: 52rem;
   margin: 3rem auto;
   position: relative;
+  background-color: rgba(0, 0, 0, 0.192);
+  height: 560px;
+  border-radius: 20px 0 20px 0;
 }
 
 .heading-box {
   padding: 3.5rem 26rem;
   background-color: #6e1b1b;
   border-radius: 20px 0 20px 0;
+  position: absolute;
+  top: 0;
 }
 
 .am-heading {
