@@ -10,6 +10,7 @@ import Services from "./pages/services/Services";
 import Contact from "./pages/contact/Contact";
 import RootLayout from "./pages/rootLayout/RootLayout";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,8 +31,8 @@ const router = createBrowserRouter([
 function App() {
   return (
     <Fragment>
-      {/* <img /> */}
-      <RouterProvider router={router} />
+      
+      <RouterProvider router={router} className='root-content' />
     </Fragment>
   );
 }

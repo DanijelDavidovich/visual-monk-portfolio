@@ -1,20 +1,14 @@
 import "./gallery.css";
-import { useState } from "react";
+
 import { motion } from "framer-motion";
 import img1 from "./galleryImages/img1.jpg";
 import img2 from "./galleryImages/img2.jpg";
 import img3 from "./galleryImages/img3.jpg";
 import img4 from "./galleryImages/img4.jpg";
-import ImageModal from "./ImageModal";
+
+import ImageBox from "./ImageBox";
 
 const Gallery = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const openHandler = () => {
-    setIsOpen(true);
-  };
-  const closeHandler = () => {
-    setIsOpen(false);
-  };
   return (
     <div className="gallery-box">
       <div className="heading-gallery-box">
@@ -45,33 +39,22 @@ const Gallery = () => {
         </motion.div>
       </div>
       <div className="images-box">
-        <div className="image-box">
-          <img src={img1} className="image-gallery" onClick={openHandler} />
-          <ImageModal content={img1} close={closeHandler} checker={isOpen} />
-        </div>
-        <div className="image-box">
-          <img src={img2} className="image-gallery" />
-        </div>
-        <div className="image-box">
-          <img src={img3} className="image-gallery" />
-        </div>
-        <div className="image-box">
-          <img src={img4} className="image-gallery" />
-        </div>
-
-        <div className="image-box">
-          <img src={img4} className="image-gallery" />
-        </div>
-        <div className="image-box">
-          <img src={img3} className="image-gallery" />
-        </div>
-
-        <div className="image-box">
-          <img src={img2} className="image-gallery" />
-        </div>
-        <div className="image-box">
-          <img src={img1} className="image-gallery" />
-        </div>
+        <ImageBox image={img1} />
+        <ImageBox image={img2} />
+        <ImageBox image={img3} />
+        <ImageBox image={img4} />
+        <ImageBox image={img4} />
+        <ImageBox image={img3} />
+        <ImageBox image={img2} />
+        <ImageBox image={img1} />
+        <ImageBox image={img1} />
+        <ImageBox image={img2} />
+        <ImageBox image={img3} />
+        <ImageBox image={img4} />
+        <ImageBox image={img4} />
+        <ImageBox image={img3} />
+        <ImageBox image={img2} />
+        <ImageBox image={img1} />
       </div>
       {/* <div className="paginaton-box">pagination</div> */}
     </div>

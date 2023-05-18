@@ -6,6 +6,7 @@
   justify-content: center;
   gap: 15rem;
   margin-top: 3rem;
+  position: absolute;
 }
 
 .logo-container {
@@ -20,7 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #343a40;
+  background-color: #00000081;
 }
 
 .heading-logo {
@@ -83,7 +84,6 @@
   justify-content: center;
   gap: 1rem;
   margin-top: 14rem;
-  
 }
 
 .mail-button {
@@ -95,6 +95,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #00000081;
 }
 
 .mail-icon {
@@ -110,4 +111,40 @@
   color: white;
   margin: -30px;
   transition: 0.5s;
+}
+
+.home-text-container {
+  position: absolute;
+  top: 3rem;
+  right: 0;
+}
+
+.home-text-top {
+  font-size: 1.5rem;
+  color: #e03131d3;
+  text-shadow: 3px 3px 3px #000000b7;
+}
+
+.home-text-bottom {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  /* border-right: 5px solid #00000081; */
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-shadow: 3px 3px 3px #000000b7;
+  color: rgba(255, 255, 255, 0.726);
+  animation: typing 2s 1s steps(30), cursor 0.4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
 }
