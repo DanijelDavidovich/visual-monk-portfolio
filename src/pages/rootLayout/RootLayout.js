@@ -5,10 +5,10 @@ import "./rootLayout.css";
 
 const RootLayout = () => {
   return (
-    <div>
-      <img src={background} className="root-background" />
+    <div className="root-container">
+      {/* <img src={background} className="root-background" /> */}
       <div className="root-content">
-        <Navigation className='navigation' />
+        <Navigation className="navigation" />
         <Outlet />
       </div>
     </div>

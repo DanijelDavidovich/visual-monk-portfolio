@@ -1,12 +1,11 @@
 import "./gallery.css";
 
 import { motion } from "framer-motion";
-import img1 from "./galleryImages/img1.jpg";
-import img2 from "./galleryImages/img2.jpg";
-import img3 from "./galleryImages/img3.jpg";
-import img4 from "./galleryImages/img4.jpg";
+
 
 import ImageBox from "./ImageBox";
+import GalleryCategories from "./GalleryCategories";
+import { Outlet } from "react-router-dom";
 
 const Gallery = () => {
   return (
@@ -38,24 +37,14 @@ const Gallery = () => {
           <div className="il-4"></div>
         </motion.div>
       </div>
-      <div className="images-box">
-        <ImageBox image={img1} />
-        <ImageBox image={img2} />
-        <ImageBox image={img3} />
-        <ImageBox image={img4} />
-        <ImageBox image={img4} />
-        <ImageBox image={img3} />
-        <ImageBox image={img2} />
-        <ImageBox image={img1} />
-        <ImageBox image={img1} />
-        <ImageBox image={img2} />
-        <ImageBox image={img3} />
-        <ImageBox image={img4} />
-        <ImageBox image={img4} />
-        <ImageBox image={img3} />
-        <ImageBox image={img2} />
-        <ImageBox image={img1} />
+      <div className="images-container">
+        <div>
+          <GalleryCategories />
+        </div>
+        <Outlet />
+        
       </div>
+
       {/* <div className="paginaton-box">pagination</div> */}
     </div>
   );

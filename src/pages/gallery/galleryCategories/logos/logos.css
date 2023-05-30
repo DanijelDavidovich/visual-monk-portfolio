@@ -1,0 +1,14 @@
+.images-box {
+  width: 60rem;
+  /* background-color: black; */
+  height: 470px;
+  padding: 7px;
+  margin-top: 55px;
+  position: absolute;
+  top: 4.9rem;
+  right: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  overflow-y: scroll;
+}

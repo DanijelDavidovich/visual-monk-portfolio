@@ -123,6 +123,7 @@
   font-size: 1.5rem;
   color: #e03131d3;
   text-shadow: 3px 3px 3px #000000b7;
+  font-weight: 700;
 }
 
 .home-text-bottom {
@@ -133,8 +134,9 @@
   white-space: nowrap;
   overflow: hidden;
   text-shadow: 3px 3px 3px #000000b7;
-  color: rgba(255, 255, 255, 0.726);
+  color: rgba(255, 255, 255, 0.856);
   animation: typing 2s 1s steps(30), cursor 0.4s step-end infinite alternate;
+  font-weight: 700;
 }
 
 @keyframes cursor {

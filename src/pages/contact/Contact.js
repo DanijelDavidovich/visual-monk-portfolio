@@ -49,15 +49,27 @@ const Contact = () => {
           </p>
         </div>
         <div className="contact-content">
-          <a className="contacts-links">
+          <a
+            className="contacts-links"
+            href="https://www.instagram.com/dusan.psd/"
+            target="_blank"
+          >
             <BsInstagram className="contact-icons" />
             <p>Instagram Profile</p>
           </a>
-          <a className="contacts-links">
+          <a
+            className="contacts-links"
+            href="https://www.facebook.com/dusan.djurdjevic95"
+            target="_blank"
+          >
             <BsFacebook className="contact-icons" />
             <p>Facebook profile</p>
           </a>
-          <a className="contacts-links">
+          <a
+            className="contacts-links"
+            href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAC-Vf38Bu-ImF8UUIFkmKfQU-BgGWbFy5qM&keywords=dušan%20đurđević&origin=RICH_QUERY_SUGGESTION&position=0&searchId=1ed04a25-3322-4513-95c5-85d08fcb58b2&sid=AMP"
+            target="_blank"
+          >
             <BsLinkedin className="contact-icons" />
             <p>LinkedIn profile</p>
           </a>

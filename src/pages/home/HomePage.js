@@ -46,7 +46,7 @@ const HomePage = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
         >
-          Few things are designed well !
+          Few things are designed well!
         </motion.p>
       </div>
     </div>
