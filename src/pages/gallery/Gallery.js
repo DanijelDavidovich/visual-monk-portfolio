@@ -2,7 +2,6 @@ import "./gallery.css";
 
 import { motion } from "framer-motion";
 
-
 import ImageBox from "./ImageBox";
 import GalleryCategories from "./GalleryCategories";
 import { Outlet } from "react-router-dom";
@@ -13,7 +12,7 @@ const Gallery = () => {
       <div className="heading-gallery-box">
         <motion.div
           className="heading-box-gallery"
-          initial={{ x: -1000, opacity: 0 }}
+          initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         ></motion.div>
@@ -27,7 +26,7 @@ const Gallery = () => {
         </motion.div>
         <motion.div
           className="small-ilustration"
-          initial={{ x: 300, opacity: 0 }}
+          initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
@@ -42,7 +41,6 @@ const Gallery = () => {
           <GalleryCategories />
         </div>
         <Outlet />
-        
       </div>
 
       {/* <div className="paginaton-box">pagination</div> */}

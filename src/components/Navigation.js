@@ -38,6 +38,12 @@ const Navigation = () => {
           <FaLinkedinIn className="icon" />
         </a>
       </div>
+      <div className="copyright-box">
+        <p className="copyright1">
+          Copyright &copy; 2023 by Danijel Davidovic,
+        </p>
+        <p className="copyright2">Inc. All rights reserved.</p>
+      </div>
     </div>
   );
 };

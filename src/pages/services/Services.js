@@ -9,7 +9,7 @@ const Services = () => {
       <div className="heanding-services-box">
         <motion.div
           className="heading-box-services"
-          initial={{ x: 300, opacity: 0 }}
+          initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         ></motion.div>
@@ -23,7 +23,7 @@ const Services = () => {
         </motion.div>
         <motion.div
           className="services-icon"
-          initial={{ x: -300, opacity: 0 }}
+          initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >

@@ -6,6 +6,7 @@
   color: white;
   background-color: #00000047;
   border-bottom: 1px solid #ffffff13;
+  position: relative;
 }
 
 .logo {
@@ -61,4 +62,22 @@
 .icons a:hover {
   color: #e03131;
   transition: 0.3s;
+}
+
+.copyright-box {
+  position: absolute;
+  bottom: -42.5rem;
+  right: 1.5rem;
+}
+
+.copyright1 {
+  font-size: 12px;
+  font-weight: 300;
+  color: #babfc5;
+}
+
+.copyright2 {
+  font-size: 12px;
+  font-weight: 300;
+  color: #babfc5;
 }

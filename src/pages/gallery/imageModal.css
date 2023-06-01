@@ -38,11 +38,10 @@
 
 .overlay_style {
   position: fixed;
-  max-height: 100%;
   left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  bottom: -3rem;
+  background-color: rgba(0, 0, 0, 0.659);
   z-index: 1000;
 }

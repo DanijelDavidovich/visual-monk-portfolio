@@ -1,12 +1,13 @@
 .root-container {
   background-image: url("./rootImages/background.png");
   background-size: cover;
-}
-
-.root-background {
-  width: 100%;
   position: relative;
 }
+
+/* .root-background {
+  width: 100%;
+  position: relative;
+} */
 
 .root-content {
   width: 100%;

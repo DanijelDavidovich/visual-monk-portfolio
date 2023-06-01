@@ -9,6 +9,7 @@ const RootLayout = () => {
       {/* <img src={background} className="root-background" /> */}
       <div className="root-content">
         <Navigation className="navigation" />
+
         <Outlet />
       </div>
     </div>
